@@ -9,6 +9,7 @@ import {
 import Logo from './IMG/logo.png'
 
 function Nav() {
+
   return (
     <Container mb='30px'>
       <NavLink to="/" >
@@ -16,15 +17,11 @@ function Nav() {
       </NavLink>
           
       <HStack justifyContent='center' fontSize='1.3em'>
-        <NavLink to="/" >
-          <Text color='black' p='10px' _hover={{color: "#baa898"}}>Home</Text>
-        </NavLink>
-        <NavLink to="/projects">
-          <Text color='black' p='10px' _hover={{color: "#baa898"}}>Projects</Text>
-        </NavLink>
-        <NavLink to="/contact">
-          <Text color='black' p='10px' _hover={{color: "#baa898"}} >Contact</Text>
-        </NavLink>
+        <NavLink to="/" style={({ isActive }) => ({ color: isActive ? '#ff5277' : '#ADA7AD' })}>Home</NavLink>
+        <Text p='10px' color='#ADA7AD'>|</Text>
+        <NavLink to="/projects" style={({ isActive }) => ({ color: isActive ? '#ff5277' : '#ADA7AD' })}>Projects</NavLink>
+        <Text p='10px' color='#ADA7AD'>|</Text>
+        <NavLink to="/contact" style={({ isActive }) => ({ color: isActive ? '#ff5277' : '#ADA7AD' })}>Contact</NavLink>
       </HStack>
     </Container>
   );

@@ -44,20 +44,20 @@ function Contact() {
 
     return(
         <Container>
-            <Heading textAlign='center' color='black' borderBottom='2px black solid' m='0px auto 20px auto' width='220px'>Contact me!</Heading>
-            <Text color='black' mb='70px'>If you don't have any questions or a message, feel free to leave some feedback / constructive criticism on my portfolio :)</Text>
+            <Heading textAlign='center' color='#ff5277' borderBottom='2px #ff5277 solid' m='0px auto 20px auto' width='220px'>Contact me!</Heading>
+            <Text color='#ADA7AD' mb='70px' fontSize='lg' textAlign='center'>If you don't have any questions or a message, feel free to leave some feedback / constructive criticism on my portfolio:)</Text>
 
-            <FormControl>
-                <FormLabel mt='20px' color='black'>Full name:</FormLabel>
-                <Input borderColor='black' color='black' type='text' value={name} onChange={e => setName(e.target.value)} />
+            <FormControl mb='50px'>
+                <FormLabel mt='20px' color='#ADA7AD'>Full name:</FormLabel>
+                <Input borderColor='#ADA7AD' color='#ADA7AD' type='text' value={name} onChange={e => setName(e.target.value)} />
 
-                <FormLabel mt='20px' color='black'>Email:</FormLabel>
-                <Input borderColor='black' color='black' type='email' value={email} onChange={e => setEmail(e.target.value)} />
+                <FormLabel mt='20px' color='#ADA7AD'>Email:</FormLabel>
+                <Input borderColor='#ADA7AD' color='#ADA7AD' type='email' value={email} onChange={e => setEmail(e.target.value)} />
 
-                <FormLabel mt='20px' color='black'>Message: </FormLabel>
-                <Textarea borderColor='black' color='black'/>
+                <FormLabel mt='20px' color='#ADA7AD'>Message: </FormLabel>
+                <Textarea borderColor='#ADA7AD' color='#ADA7AD'/>
 
-                <Button color='black' colorScheme='black'  variant='outline' m='20px auto 20px auto'  onClick={submit}>Send message</Button>
+                <Button _hover={{color: "#ff5277"}} color='#ADA7AD' colorScheme='#ADA7AD' variant='outline' display='flex' m='30px auto 20px auto' onClick={submit}>Send message</Button>
                 </FormControl>
         </Container>
     );

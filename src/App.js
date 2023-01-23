@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 
+import './app.css'
+
 function App() {
   return (
       <ChakraProvider>
