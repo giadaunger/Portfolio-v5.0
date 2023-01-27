@@ -21,7 +21,7 @@ const Slideshow = () => {
             <Heading textAlign='center' color='#ff5277' borderBottom='2px #ff5277 solid' m='0px auto 20px auto' width='200px'>Certificates</Heading>
             <Slide>
                 {
-                images.map((each, index) => <img key={index} alt='slideIMG' style={{width: "100%"}} src={each} />)
+                images.map((each, index) => <img key={index} alt='slideIMG' style={{width: '100%'}} src={each} />)
                 }
             </Slide>
         </Container>

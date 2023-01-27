@@ -7,9 +7,31 @@ import {
 
 function AboutMe() {
     return(
-        <Container mb='100px'>
-            <Heading textAlign='center' color='#ff5277' borderBottom='2px #ff5277 solid' m='0px auto 20px auto' width='220px'>About me</Heading>
-            <Text color='#ADA7AD' fontSize='lg'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Text>
+        <Container mb='100px' textAlign='center'>
+            <Heading color='#ff5277' borderBottom='2px #ff5277 solid' m='0px auto 20px auto' width='220px'>About me</Heading>
+            <Text color='#ADA7AD' fontSize='lg' mb='15px'>
+            When it came time for me to apply to a high school, I had no idea what I wanted to study and which
+            school would suit me best. It ended up with me applying for a few different educations and schools 
+            without having any idea how it would end. I started the high school I had chosen randomly as my first 
+            choice. What I was going to educate my selfe for the next three years was "Technology - Info and Media".
+            </Text>
+
+            <Text color='#ADA7AD' fontSize='lg' mb='15px'>
+            Once I started school, I felt so dissatisfied because I was going read a lot of subjects that I was not 
+            interested in, for example maths, physics, chemistry, etc. Until I started taking programming and web 
+            development courses. That's when I opened my eyes to coding. I noticed pretty quickly that I was more 
+            interested in the visuals and the styling, i.e. the front end part.
+            </Text>
+
+            <Text color='#ADA7AD' fontSize='lg' mb='15px'>
+            After high school, I chose to study further directly after graduation, and thus chose to study a 
+            "Frontend / App development" course. It has been a tough but very educational path.
+            </Text>
+
+            <Text color='#ADA7AD' fontSize='lg'>
+            Some of my other interests / hobbies include working out at the gym, fixing my own acrylic nails, 
+            baking and cooking.
+            </Text>
         </Container>
     );
 }

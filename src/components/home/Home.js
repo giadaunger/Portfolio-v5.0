@@ -27,7 +27,7 @@ function Home() {
 
             <Image alt='logo' src={FPimg} boxSize='350px' objectFit='cover' m='0px auto 0px auto' />
             <Flex>
-                <Button color='#ADA7AD' colorScheme='white' variant='outline' _hover={{color: "#ff5277"}} onClick={() => openInNewTab(Resume)} rightIcon={<FaFileUpload />} m='0px auto 100px auto'>Downlad my resume</Button> 
+                <Button color='#ADA7AD' colorScheme='white' variant='outline' _hover={{color: '#ff5277'}} onClick={() => openInNewTab(Resume)} rightIcon={<FaFileUpload />} m='0px auto 100px auto'>Downlad my resume</Button> 
             </Flex>
 
             <AboutMe />

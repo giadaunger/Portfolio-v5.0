@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState} from 'react';
 import emailjs from 'emailjs-com'
 import {
     FormControl,
@@ -57,7 +57,7 @@ function Contact() {
                 <FormLabel mt='20px' color='#ADA7AD'>Message: </FormLabel>
                 <Textarea borderColor='#ADA7AD' color='#ADA7AD'/>
 
-                <Button _hover={{color: "#ff5277"}} color='#ADA7AD' colorScheme='#ADA7AD' variant='outline' display='flex' m='30px auto 20px auto' onClick={submit}>Send message</Button>
+                <Button _hover={{color: '#ff5277'}} color='#ADA7AD' colorScheme='#ADA7AD' variant='outline' display='flex' m='30px auto 20px auto' onClick={submit}>Send message</Button>
                 </FormControl>
         </Container>
     );
